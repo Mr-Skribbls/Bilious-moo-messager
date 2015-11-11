@@ -1,0 +1,147 @@
+body, h1, h2, h3, h4, h5, h6, ul, li, ol, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+html, body {
+    min-height: 100%;
+    color: black;
+}
+
+body {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#login_box {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25%;
+    width: 100%;
+    text-align: center;
+}
+
+#not_login {
+    color: rgba(255,100,50,0.8);
+    font-size: 1.25em;
+}
+
+.login_text_input {
+    width: 260px;
+    height: 30px;
+    margin-top: 8px;
+    font-size: 20px;
+    border-radius: 2px;
+    background-color: rgb(225,225,225);
+}
+
+.login_submit {
+    width: 150px;
+    height: 30px;
+    font-size: 18px;
+    margin-top: 6px;
+    border: 1px solid rgb(100,100,100);
+    border-radius: 2px;
+    background: rgba(220,220,220,0.9);
+    cursor: pointer;
+}
+
+#new_user_link {
+    color: black;
+    border: 1px solid rgb(200,200,200);
+    background: rgba(220,220,220,0.9);
+    margin-top: 6px;
+    display: inline-block;
+    padding: 2px 10px;
+    border: 1px solid;
+    border-radius: 2px;
+    font-size: 0.8em;
+}
+
+#login_link {
+    color: black;
+    border: 1px solid rgb(200,200,200);
+    background: rgba(220,220,220,0.9);
+    margin-top: 6px;
+    display: inline-block;
+    padding: 2px 10px;
+    border: 1px solid;
+    border-radius: 2px;
+    font-size: 0.8em;
+}
+
+#user_dashboard {
+    width: 100%;
+    height: 40px;
+    background: lightblue;
+    border-bottom: 2px solid rgb(100,100,100);
+}
+
+#user_name {
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 1.1em;
+}
+
+#logout_form {
+    float: left;
+    margin-top: 5px;
+}
+
+#post_message_form {
+    margin-top: 20px;
+    margin-right: 15px;
+    float: right;
+    width: 275px;
+}
+
+div#messages {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.mess_to_option {
+    float: left;
+    margin-top: 1px;
+    margin-right: 10px;
+    margin-bottom: 2px;
+}
+
+#mess_text_input {
+    max-width: 275px;
+}
+
+
+
+
+
+
+
+
+.mess_box {
+    margin-left: 30px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.delete_mess_form {
+    position: absolute;
+    top: 0;
+    left: -30px;
+}
+
+.mess {
+    background: lightblue;
+    display: inline-block;
+    width: 150px;
+    padding: 4px;
+    border-radius: 3px;
+}
+
+.my_mess {
+    background: lightgreen;
+}
